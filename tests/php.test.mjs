@@ -1,0 +1,2 @@
+import {test} from 'node:test';import fs from 'node:fs';import Parser from 'php-parser';
+test('WordPress PHP syntax is valid',()=>{const parser=new Parser({parser:{phpVersion:'8.3'}});for(const file of ['wordpress/wp-content/plugins/terka-content/terka-content.php','wordpress/wp-content/themes/terka/functions.php','wordpress/wp-content/themes/terka/index.php'])parser.parseCode(fs.readFileSync(file,'utf8'),file);});

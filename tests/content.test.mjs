@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const seed=JSON.parse(fs.readFileSync('content/seed.json'));const schema=JSON.parse(fs.readFileSync('wordpress/wp-content/plugins/terka-content/schema.json'));
+test('All 12 pages and global content migrated',()=>{assert.equal(Object.keys(seed).length,13);assert.deepEqual(Object.keys(seed).sort(),Object.keys(schema).sort());});
+test('No unmapped field tokens and all images exist',()=>{for(const page of Object.values(schema)){for(const token of page.template.matchAll(/\{\{(.*?)\}\}/g))assert(page.fields.some(f=>f.name===token[1]));for(const f of page.fields.filter(f=>f.type==='image'))assert(fs.existsSync('public'+f.default));}});
+test('Both overviews have six services and Terka story preserved',()=>{assert.equal((seed.home.html.match(/class="service-card"/g)||[]).length,6);assert.equal((seed.sluzby.html.match(/class="service-preview"/g)||[]).length,6);assert(seed['o-mne'].html.includes('Já, Terka'));});
