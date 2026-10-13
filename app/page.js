@@ -1,4 +1,4 @@
-import {content,slugs} from '../../lib/content';
+import {content,slugs} from '../lib/content';
 import {notFound} from 'next/navigation';
 export async function generateMetadata({params}) {const p=await params;const slug=p.slug?.join('/')||'home';if(!slugs.includes(slug)) return {};const data=await content(slug);return {title:data.title};}
 export default async function Page({params}) {
