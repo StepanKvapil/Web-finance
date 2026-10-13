@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.zip
+wordpress/wp-content/uploads/

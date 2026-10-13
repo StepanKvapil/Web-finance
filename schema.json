@@ -1,0 +1,1999 @@
+{
+  "global": {
+    "template": "<header><a class=\"brand\" href=\"{{item_3}}\">Tereza Machoňová<span>{{item_16}}</span></a><nav aria-label=\"Hlavní navigace\"><a href=\"{{item_4}}\" aria-current=\"page\">{{item_17}}</a><a href=\"{{item_5}}\" >{{item_18}}</a><a href=\"{{item_6}}\" >{{item_19}}</a><a href=\"{{item_7}}\" >{{item_20}}</a><a href=\"{{item_8}}\" >{{item_21}}</a></nav><a class=\"button\" href=\"{{item_9}}\">{{item_22}}</a></header><footer><div><a class=\"brand\" href=\"{{item_10}}\">Tereza Machoňová<span>{{item_23}}</span></a><a class=\"logo-link\" href=\"{{item_11}}\" target=\"_blank\" rel=\"noopener\" aria-label=\"4fin – otevřít web\"><img src=\"{{item_2}}\" alt=\"4fin Better together\"></a></div><div class=\"footer-links\"><a href=\"{{item_12}}\">{{item_24}}</a><a href=\"{{item_13}}\">{{item_25}}</a><a href=\"{{item_14}}\" target=\"_blank\" rel=\"noopener\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.8 1.8-1.8H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.7 0-4.5 1.6-4.5 4.6v2.7H7V13h3v9z\"/></svg><span>{{item_26}}</span></a></div><p class=\"legal\">{{item_1}}</p><div class=\"bottom\"><span>{{item_27}}</span><a href=\"{{item_15}}\">{{item_28}}</a></div></footer>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "wysiwyg",
+        "label": "Ing. Tereza Machoňová, IČ: 29604796, je vázaným zástupcem společn",
+        "default": "Ing. Tereza Machoňová, IČ: 29604796, je vázaným zástupcem společnosti Broker Trust, a.s., IČ: 26439719, se sídlem Želetavská 1525/1, Praha 4, 140 00. Společnost Broker Trust je zapsána u OR vedeného Městským soudem v Praze, oddíl B, vložka 7141."
+      },
+      {
+        "name": "item_2",
+        "type": "image",
+        "label": "Fotografie 2",
+        "default": "/assets/4fin.webp"
+      },
+      {
+        "name": "item_3",
+        "type": "url",
+        "label": "Odkaz: /",
+        "default": "/"
+      },
+      {
+        "name": "item_4",
+        "type": "url",
+        "label": "Odkaz: /",
+        "default": "/"
+      },
+      {
+        "name": "item_5",
+        "type": "url",
+        "label": "Odkaz: /o-mne",
+        "default": "/o-mne"
+      },
+      {
+        "name": "item_6",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /reference",
+        "default": "/reference"
+      },
+      {
+        "name": "item_8",
+        "type": "url",
+        "label": "Odkaz: /kontakt",
+        "default": "/kontakt"
+      },
+      {
+        "name": "item_9",
+        "type": "url",
+        "label": "Odkaz: /kontakt#formular",
+        "default": "/kontakt#formular"
+      },
+      {
+        "name": "item_10",
+        "type": "url",
+        "label": "Odkaz: /",
+        "default": "/"
+      },
+      {
+        "name": "item_11",
+        "type": "url",
+        "label": "Odkaz: https://www.4fin.cz/",
+        "default": "https://www.4fin.cz/"
+      },
+      {
+        "name": "item_12",
+        "type": "url",
+        "label": "Odkaz: tel:+420732869834",
+        "default": "tel:+420732869834"
+      },
+      {
+        "name": "item_13",
+        "type": "url",
+        "label": "Odkaz: mailto:tereza.machonova@4fin.cz",
+        "default": "mailto:tereza.machonova@4fin.cz"
+      },
+      {
+        "name": "item_14",
+        "type": "url",
+        "label": "Odkaz: https://www.facebook.com/profile.php?id=61592866243076",
+        "default": "https://www.facebook.com/profile.php?id=61592866243076"
+      },
+      {
+        "name": "item_15",
+        "type": "url",
+        "label": "Odkaz: /ochrana-osobnich-udaju",
+        "default": "/ochrana-osobnich-udaju"
+      },
+      {
+        "name": "item_16",
+        "type": "text",
+        "label": "Finanční a majetkové poradenství",
+        "default": "Finanční a majetkové poradenství"
+      },
+      {
+        "name": "item_17",
+        "type": "text",
+        "label": "Úvod",
+        "default": "Úvod"
+      },
+      {
+        "name": "item_18",
+        "type": "text",
+        "label": "O mně",
+        "default": "O mně"
+      },
+      {
+        "name": "item_19",
+        "type": "text",
+        "label": "Služby",
+        "default": "Služby"
+      },
+      {
+        "name": "item_20",
+        "type": "text",
+        "label": "Reference",
+        "default": "Reference"
+      },
+      {
+        "name": "item_21",
+        "type": "text",
+        "label": "Kontakt",
+        "default": "Kontakt"
+      },
+      {
+        "name": "item_22",
+        "type": "text",
+        "label": "Domluvit schůzku",
+        "default": "Domluvit schůzku"
+      },
+      {
+        "name": "item_23",
+        "type": "text",
+        "label": "Finance a bydlení",
+        "default": "Finance a bydlení"
+      },
+      {
+        "name": "item_24",
+        "type": "text",
+        "label": "+420 732 869 834",
+        "default": "+420 732 869 834"
+      },
+      {
+        "name": "item_25",
+        "type": "text",
+        "label": "tereza.machonova@4fin.cz",
+        "default": "tereza.machonova@4fin.cz"
+      },
+      {
+        "name": "item_26",
+        "type": "text",
+        "label": "Facebook",
+        "default": "Facebook"
+      },
+      {
+        "name": "item_27",
+        "type": "text",
+        "label": "© 2026 Tereza Machoňová",
+        "default": "© 2026 Tereza Machoňová"
+      },
+      {
+        "name": "item_28",
+        "type": "text",
+        "label": "Ochrana osobních údajů",
+        "default": "Ochrana osobních údajů"
+      }
+    ]
+  },
+  "financni-plan": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_4}}\">{{item_6}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_3}}\" alt=\"Ilustrační fotografie finanční analýzy z webu 4fin\"></div><div><a class=\"button\" href=\"{{item_5}}\">{{item_7}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Finanční obrázek bez slepých míst",
+        "default": "Finanční obrázek bez slepých míst"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Finanční plán",
+        "default": "Finanční plán"
+      },
+      {
+        "name": "item_3",
+        "type": "image",
+        "label": "Fotografie 3",
+        "default": "/assets/analyza.webp"
+      },
+      {
+        "name": "item_4",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_5",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=plan#formular",
+        "default": "/kontakt?tema=plan#formular"
+      },
+      {
+        "name": "item_6",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_7",
+        "type": "text",
+        "label": "Probrat finanční plán",
+        "default": "Probrat finanční plán"
+      }
+    ],
+    "title": "Finanční obrázek bez slepých míst | Tereza Machoňová"
+  },
+  "hypoteky": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_6}}\">{{item_8}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_5}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\"></div><div><h2>{{item_3}}</h2><p>{{item_4}}</p><ul class=\"service-points\"><li>{{item_10}}</li><li>{{item_11}}</li><li>{{item_12}}</li></ul><a class=\"button\" href=\"{{item_7}}\">{{item_9}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Bydlím, tedy jsem",
+        "default": "Bydlím, tedy jsem"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávaj",
+        "default": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávající hypotéky."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Co spolu probereme?",
+        "default": "Co spolu probereme?"
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Pomůžu vám nastavit financování tak, aby dávalo smysl nejen dnes,",
+        "default": "Pomůžu vám nastavit financování tak, aby dávalo smysl nejen dnes, ale i za pár let."
+      },
+      {
+        "name": "item_5",
+        "type": "image",
+        "label": "Fotografie 5",
+        "default": "/assets/schuzka.webp"
+      },
+      {
+        "name": "item_6",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=bydleni#formular",
+        "default": "/kontakt?tema=bydleni#formular"
+      },
+      {
+        "name": "item_8",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_9",
+        "type": "text",
+        "label": "Probrat své bydlení",
+        "default": "Probrat své bydlení"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Jaké bydlení hledáte a kolik máte vlastních prostředků.",
+        "default": "Jaké bydlení hledáte a kolik máte vlastních prostředků."
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Jaká splátka se vejde do vašeho rozpočtu.",
+        "default": "Jaká splátka se vejde do vašeho rozpočtu."
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Termíny koupě, stavby či konce fixace stávajícího úvěru.",
+        "default": "Termíny koupě, stavby či konce fixace stávajícího úvěru."
+      }
+    ],
+    "title": "Bydlím, tedy jsem | Tereza Machoňová"
+  },
+  "home": {
+    "template": "<section class=\"hero\"><div><h1>{{item_1}}</h1><p>{{item_2}}</p><div class=\"actions\"><a class=\"button\" href=\"{{item_42}}\">{{item_62}}</a><a class=\"button light\" href=\"{{item_43}}\">{{item_63}}</a></div></div><div class=\"hero-visual\"><div class=\"geo-ring\" aria-hidden=\"true\"></div><div class=\"geo-square\" aria-hidden=\"true\"></div><div class=\"dot-grid\" aria-hidden=\"true\"></div><img class=\"portrait\" src=\"{{item_38}}\" alt=\"Ing. Tereza Machoňová\"><a class=\"float-card card-a\" href=\"{{item_44}}\"><span class=\"mini-icon\">{{item_64}}</span><div>Vlastní bydlení<small>{{item_65}}</small></div></a><a class=\"float-card card-b\" href=\"{{item_45}}\"><div>Plán pro vaše finance<small>{{item_66}}</small></div><span class=\"mini-chart\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i></span></a></div></section><div class=\"brand-strip\"><span>{{item_67}}</span><a class=\"logo-link\" href=\"{{item_46}}\" target=\"_blank\" rel=\"noopener\" aria-label=\"4fin – otevřít web\"><img src=\"{{item_39}}\" alt=\"4fin Better together\"></a></div><div class=\"chooser\"><p>{{item_3}}</p><div><a href=\"{{item_47}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7\"/></svg><span>{{item_68}}</span></a><a href=\"{{item_48}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path d=\"M8 7h2m4 0h2M8 11h2m4 0h2M10 21v-6h4v6\"/></svg><span>{{item_69}}</span></a><a href=\"{{item_49}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6zM8 12l3 3 5-6\"/></svg><span>{{item_70}}</span></a><a href=\"{{item_50}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M4 21V11m6 10V7m6 14V3m5 18H2\"/></svg><span>{{item_71}}</span></a><a href=\"{{item_51}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6v6l4 3\"/></svg><span>{{item_72}}</span></a></div></div><section class=\"section\"><div class=\"section-title\"><div><h2>{{item_4}}</h2></div></div><div class=\"service-grid\"><a class=\"service-card\" href=\"{{item_52}}\"><span class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7\"/></svg></span><h3>{{item_5}}</h3><p>{{item_6}}</p><span class=\"text-link\">{{item_73}}</span></a><a class=\"service-card\" href=\"{{item_53}}\"><span class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path d=\"M8 7h2m4 0h2M8 11h2m4 0h2M10 21v-6h4v6\"/></svg></span><h3>{{item_7}}</h3><p>{{item_8}}</p><span class=\"text-link\">{{item_74}}</span></a><a class=\"service-card\" href=\"{{item_54}}\"><span class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6zM8 12l3 3 5-6\"/></svg></span><h3>{{item_9}}</h3><p>{{item_10}}</p><span class=\"text-link\">{{item_75}}</span></a><a class=\"service-card\" href=\"{{item_55}}\"><span class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M4 21V11m6 10V7m6 14V3m5 18H2\"/></svg></span><h3>{{item_11}}</h3><p>{{item_12}}</p><span class=\"text-link\">{{item_76}}</span></a><a class=\"service-card\" href=\"{{item_56}}\"><span class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6v6l4 3\"/></svg></span><h3>{{item_13}}</h3><p>{{item_14}}</p><span class=\"text-link\">{{item_77}}</span></a><a class=\"service-card\" href=\"{{item_57}}\"><div class=\"card-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 10h18M10 10v11M14 14h3m-3 3h3\"/></svg></div><h3>{{item_15}}</h3><p>{{item_16}}</p><span class=\"text-link\">{{item_78}}</span></a></div></section><section class=\"split section\"><div class=\"image-composition\"><img src=\"{{item_40}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\" loading=\"lazy\"><span class=\"image-caption\">{{item_79}}</span><div class=\"small-ring\" aria-hidden=\"true\"></div></div><div><h2>{{item_17}}</h2><p>{{item_18}}</p><p>{{item_19}}</p><a class=\"button\" href=\"{{item_58}}\">{{item_80}}</a></div></section><section class=\"section enquiry-title\"><div class=\"section-title\"><h2>{{item_20}}</h2></div></section><section class=\"contact-layout\"><div class=\"contact-info\"><img class=\"contact-avatar\" src=\"{{item_41}}\" alt=\"Tereza Machoňová\"><h2>{{item_21}}</h2><p>{{item_22}}</p><a href=\"{{item_59}}\"><small>{{item_81}}</small>+420 732 869 834</a><a href=\"{{item_60}}\"><small>{{item_82}}</small>tereza.machonova@4fin.cz</a><div><small>{{item_83}}</small>Místo osobního setkání upřesním při domluvě.</div><a class=\"text-link\" href=\"{{item_61}}\" target=\"_blank\" rel=\"noopener\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.8 1.8-1.8H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.7 0-4.5 1.6-4.5 4.6v2.7H7V13h3v9z\"/></svg><span>{{item_84}}</span></a></div><div class=\"form-card\" id=\"formular\"><h2>{{item_23}}</h2><form id=\"contact-form\"><label for=\"name\">{{item_24}}</label><input id=\"name\" name=\"name\" autocomplete=\"name\" required placeholder=\"Jak se jmenujete?\"><div class=\"form-row\"><div><label for=\"email\">{{item_25}}</label><input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"email\" required placeholder=\"vas@email.cz\"></div><div><label for=\"phone\">{{item_26}}</label><input type=\"tel\" id=\"phone\" name=\"phone\" autocomplete=\"tel\" placeholder=\"+420\"></div></div><label for=\"topic\">{{item_27}}</label><select id=\"topic\" name=\"topic\"><option>{{item_28}}</option><option>{{item_29}}</option><option>{{item_30}}</option><option>{{item_31}}</option><option>{{item_32}}</option><option>{{item_33}}</option><option>{{item_34}}</option></select><label for=\"message\">{{item_35}}</label><textarea id=\"message\" name=\"message\" rows=\"4\" required placeholder=\"Napište mi pár slov o tom, co potřebujete vyřešit.\"></textarea><p class=\"form-note\">{{item_36}}</p><button class=\"button\" type=\"submit\">{{item_37}}</button><p id=\"form-status\" role=\"status\"></p></form></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Budoucnost neodhadnu. Dokážu vás na ni připravit.",
+        "default": "Budoucnost neodhadnu.<br>Dokážu vás na ni připravit."
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Není třeba se bát hypoték, pojistek nebo investic. Stačí jim rozu",
+        "default": "Není třeba se bát hypoték, pojistek nebo investic. Stačí jim rozumět."
+      },
+      {
+        "name": "item_3",
+        "type": "wysiwyg",
+        "label": "S čím vám mohu pomoci?",
+        "default": "S čím vám mohu pomoci?"
+      },
+      {
+        "name": "item_4",
+        "type": "heading",
+        "label": "Co právě potřebujete vyřešit?",
+        "default": "Co právě potřebujete vyřešit?"
+      },
+      {
+        "name": "item_5",
+        "type": "heading",
+        "label": "Bydlím, tedy jsem",
+        "default": "Bydlím, tedy jsem"
+      },
+      {
+        "name": "item_6",
+        "type": "wysiwyg",
+        "label": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávaj",
+        "default": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávající hypotéky."
+      },
+      {
+        "name": "item_7",
+        "type": "heading",
+        "label": "Reality bez iluzí",
+        "default": "Reality bez iluzí"
+      },
+      {
+        "name": "item_8",
+        "type": "wysiwyg",
+        "label": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení.",
+        "default": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení."
+      },
+      {
+        "name": "item_9",
+        "type": "heading",
+        "label": "Nesmrtelnost zatím není v nabídce",
+        "default": "Nesmrtelnost zatím není v nabídce"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Ochrana příjmu, blízkých, nemovitosti a domácnosti.",
+        "default": "Ochrana příjmu, blízkých, nemovitosti a domácnosti."
+      },
+      {
+        "name": "item_11",
+        "type": "heading",
+        "label": "Riziko je součást hry",
+        "default": "Riziko je součást hry"
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Využití volných prostředků podle vašich cílů a časového horizontu",
+        "default": "Využití volných prostředků podle vašich cílů a časového horizontu."
+      },
+      {
+        "name": "item_13",
+        "type": "heading",
+        "label": "Na stará kolena",
+        "default": "Na stará kolena"
+      },
+      {
+        "name": "item_14",
+        "type": "wysiwyg",
+        "label": "Dlouhodobý finanční plán pro život po skončení práce.",
+        "default": "Dlouhodobý finanční plán pro život po skončení práce."
+      },
+      {
+        "name": "item_15",
+        "type": "heading",
+        "label": "Finanční obrázek bez slepých míst",
+        "default": "Finanční obrázek bez slepých míst"
+      },
+      {
+        "name": "item_16",
+        "type": "wysiwyg",
+        "label": "Přehled příjmů, výdajů, rezerv a závazků. Finanční plán, ve které",
+        "default": "Přehled příjmů, výdajů, rezerv a závazků. Finanční plán, ve kterém všechno zapadá do souvislostí."
+      },
+      {
+        "name": "item_17",
+        "type": "heading",
+        "label": "Najít řešení. A vysvětlit proč.",
+        "default": "Najít řešení.<br>A vysvětlit proč."
+      },
+      {
+        "name": "item_18",
+        "type": "wysiwyg",
+        "label": "Smyslem mojí práce je najít cestu, jak ochránit, zhodnotit a rozv",
+        "default": "Smyslem mojí práce je najít cestu, jak ochránit, zhodnotit a rozvíjet váš kapitál."
+      },
+      {
+        "name": "item_19",
+        "type": "wysiwyg",
+        "label": "Pomůžu vám zorientovat se ve financích a nastavit směr, který vám",
+        "default": "Pomůžu vám zorientovat se ve financích a nastavit směr, který vám bude dávat smysl."
+      },
+      {
+        "name": "item_20",
+        "type": "heading",
+        "label": "Co právě řešíte?",
+        "default": "Co právě řešíte?"
+      },
+      {
+        "name": "item_21",
+        "type": "heading",
+        "label": "Ing. Tereza Machoňová",
+        "default": "Ing. Tereza Machoňová"
+      },
+      {
+        "name": "item_22",
+        "type": "wysiwyg",
+        "label": "Finanční konzultantka · 4fin",
+        "default": "Finanční konzultantka · 4fin"
+      },
+      {
+        "name": "item_23",
+        "type": "heading",
+        "label": "Kontaktujte mě",
+        "default": "Kontaktujte mě"
+      },
+      {
+        "name": "item_24",
+        "type": "wysiwyg",
+        "label": "Jméno a příjmení  *",
+        "default": "Jméno a příjmení <span>*</span>"
+      },
+      {
+        "name": "item_25",
+        "type": "wysiwyg",
+        "label": "E-mail  *",
+        "default": "E-mail <span>*</span>"
+      },
+      {
+        "name": "item_26",
+        "type": "wysiwyg",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_27",
+        "type": "wysiwyg",
+        "label": "S čím vám mohu pomoci?",
+        "default": "S čím vám mohu pomoci?"
+      },
+      {
+        "name": "item_28",
+        "type": "wysiwyg",
+        "label": "Rád/a bych se poradil/a",
+        "default": "Rád/a bych se poradil/a"
+      },
+      {
+        "name": "item_29",
+        "type": "wysiwyg",
+        "label": "Hypotéky a financování bydlení",
+        "default": "Hypotéky a financování bydlení"
+      },
+      {
+        "name": "item_30",
+        "type": "wysiwyg",
+        "label": "Reality a bydlení",
+        "default": "Reality a bydlení"
+      },
+      {
+        "name": "item_31",
+        "type": "wysiwyg",
+        "label": "Životní a majetkové pojištění",
+        "default": "Životní a majetkové pojištění"
+      },
+      {
+        "name": "item_32",
+        "type": "wysiwyg",
+        "label": "Investice",
+        "default": "Investice"
+      },
+      {
+        "name": "item_33",
+        "type": "wysiwyg",
+        "label": "Příprava na penzi",
+        "default": "Příprava na penzi"
+      },
+      {
+        "name": "item_34",
+        "type": "wysiwyg",
+        "label": "Finanční plán",
+        "default": "Finanční plán"
+      },
+      {
+        "name": "item_35",
+        "type": "wysiwyg",
+        "label": "Vaše zpráva  *",
+        "default": "Vaše zpráva <span>*</span>"
+      },
+      {
+        "name": "item_36",
+        "type": "wysiwyg",
+        "label": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete j",
+        "default": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete ji tam; web údaje neukládá. <a class=\"text-link\" href=\"/ochrana-osobnich-udaju\">Ochrana osobních údajů</a>."
+      },
+      {
+        "name": "item_37",
+        "type": "wysiwyg",
+        "label": "Připravit e-mail",
+        "default": "Připravit e-mail"
+      },
+      {
+        "name": "item_38",
+        "type": "image",
+        "label": "Fotografie 38",
+        "default": "/assets/tereza.jpg"
+      },
+      {
+        "name": "item_39",
+        "type": "image",
+        "label": "Fotografie 39",
+        "default": "/assets/4fin.webp"
+      },
+      {
+        "name": "item_40",
+        "type": "image",
+        "label": "Fotografie 40",
+        "default": "/assets/schuzka.webp"
+      },
+      {
+        "name": "item_41",
+        "type": "image",
+        "label": "Fotografie 41",
+        "default": "/assets/tereza.jpg"
+      },
+      {
+        "name": "item_42",
+        "type": "url",
+        "label": "Odkaz: /kontakt",
+        "default": "/kontakt"
+      },
+      {
+        "name": "item_43",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_44",
+        "type": "url",
+        "label": "Odkaz: /hypoteky",
+        "default": "/hypoteky"
+      },
+      {
+        "name": "item_45",
+        "type": "url",
+        "label": "Odkaz: /investice",
+        "default": "/investice"
+      },
+      {
+        "name": "item_46",
+        "type": "url",
+        "label": "Odkaz: https://www.4fin.cz/",
+        "default": "https://www.4fin.cz/"
+      },
+      {
+        "name": "item_47",
+        "type": "url",
+        "label": "Odkaz: /hypoteky",
+        "default": "/hypoteky"
+      },
+      {
+        "name": "item_48",
+        "type": "url",
+        "label": "Odkaz: /reality",
+        "default": "/reality"
+      },
+      {
+        "name": "item_49",
+        "type": "url",
+        "label": "Odkaz: /pojisteni",
+        "default": "/pojisteni"
+      },
+      {
+        "name": "item_50",
+        "type": "url",
+        "label": "Odkaz: /investice",
+        "default": "/investice"
+      },
+      {
+        "name": "item_51",
+        "type": "url",
+        "label": "Odkaz: /penze",
+        "default": "/penze"
+      },
+      {
+        "name": "item_52",
+        "type": "url",
+        "label": "Odkaz: /hypoteky",
+        "default": "/hypoteky"
+      },
+      {
+        "name": "item_53",
+        "type": "url",
+        "label": "Odkaz: /reality",
+        "default": "/reality"
+      },
+      {
+        "name": "item_54",
+        "type": "url",
+        "label": "Odkaz: /pojisteni",
+        "default": "/pojisteni"
+      },
+      {
+        "name": "item_55",
+        "type": "url",
+        "label": "Odkaz: /investice",
+        "default": "/investice"
+      },
+      {
+        "name": "item_56",
+        "type": "url",
+        "label": "Odkaz: /penze",
+        "default": "/penze"
+      },
+      {
+        "name": "item_57",
+        "type": "url",
+        "label": "Odkaz: /financni-plan",
+        "default": "/financni-plan"
+      },
+      {
+        "name": "item_58",
+        "type": "url",
+        "label": "Odkaz: /o-mne",
+        "default": "/o-mne"
+      },
+      {
+        "name": "item_59",
+        "type": "url",
+        "label": "Odkaz: tel:+420732869834",
+        "default": "tel:+420732869834"
+      },
+      {
+        "name": "item_60",
+        "type": "url",
+        "label": "Odkaz: mailto:tereza.machonova@4fin.cz",
+        "default": "mailto:tereza.machonova@4fin.cz"
+      },
+      {
+        "name": "item_61",
+        "type": "url",
+        "label": "Odkaz: https://www.facebook.com/profile.php?id=61592866243076",
+        "default": "https://www.facebook.com/profile.php?id=61592866243076"
+      },
+      {
+        "name": "item_62",
+        "type": "text",
+        "label": "Domluvit schůzku",
+        "default": "Domluvit schůzku"
+      },
+      {
+        "name": "item_63",
+        "type": "text",
+        "label": "Prohlédnout služby",
+        "default": "Prohlédnout služby"
+      },
+      {
+        "name": "item_64",
+        "type": "text",
+        "label": "⌂",
+        "default": "⌂"
+      },
+      {
+        "name": "item_65",
+        "type": "text",
+        "label": "Hypotéky a refinancování",
+        "default": "Hypotéky a refinancování"
+      },
+      {
+        "name": "item_66",
+        "type": "text",
+        "label": "Bydlení · ochrana · budoucnost",
+        "default": "Bydlení · ochrana · budoucnost"
+      },
+      {
+        "name": "item_67",
+        "type": "text",
+        "label": "Finanční a majetkové poradenství pod značkou",
+        "default": "Finanční a majetkové poradenství pod značkou"
+      },
+      {
+        "name": "item_68",
+        "type": "text",
+        "label": "Chci vlastní bydlení",
+        "default": "Chci vlastní bydlení"
+      },
+      {
+        "name": "item_69",
+        "type": "text",
+        "label": "Kupuji nebo prodávám",
+        "default": "Kupuji nebo prodávám"
+      },
+      {
+        "name": "item_70",
+        "type": "text",
+        "label": "Chci ochránit rodinu a majetek",
+        "default": "Chci ochránit rodinu a majetek"
+      },
+      {
+        "name": "item_71",
+        "type": "text",
+        "label": "Chci investovat",
+        "default": "Chci investovat"
+      },
+      {
+        "name": "item_72",
+        "type": "text",
+        "label": "Myslím na penzi",
+        "default": "Myslím na penzi"
+      },
+      {
+        "name": "item_73",
+        "type": "text",
+        "label": "Podrobnosti",
+        "default": "Podrobnosti"
+      },
+      {
+        "name": "item_74",
+        "type": "text",
+        "label": "Podrobnosti",
+        "default": "Podrobnosti"
+      },
+      {
+        "name": "item_75",
+        "type": "text",
+        "label": "Podrobnosti",
+        "default": "Podrobnosti"
+      },
+      {
+        "name": "item_76",
+        "type": "text",
+        "label": "Podrobnosti",
+        "default": "Podrobnosti"
+      },
+      {
+        "name": "item_77",
+        "type": "text",
+        "label": "Podrobnosti",
+        "default": "Podrobnosti"
+      },
+      {
+        "name": "item_78",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_79",
+        "type": "text",
+        "label": "Nejdřív si promluvíme.",
+        "default": "Nejdřív si promluvíme."
+      },
+      {
+        "name": "item_80",
+        "type": "text",
+        "label": "Více o mně",
+        "default": "Více o mně"
+      },
+      {
+        "name": "item_81",
+        "type": "text",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_82",
+        "type": "text",
+        "label": "E-mail",
+        "default": "E-mail"
+      },
+      {
+        "name": "item_83",
+        "type": "text",
+        "label": "Kancelář",
+        "default": "Kancelář"
+      },
+      {
+        "name": "item_84",
+        "type": "text",
+        "label": "Facebook · Finance od Terky",
+        "default": "Facebook · Finance od Terky"
+      }
+    ],
+    "title": "Finance a bydlení | Tereza Machoňová"
+  },
+  "investice": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_7}}\">{{item_9}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_6}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\"></div><div><h2>{{item_3}}</h2><p>{{item_4}}</p><ul class=\"service-points\"><li>{{item_11}}</li><li>{{item_12}}</li><li>{{item_13}}</li></ul><p class=\"form-note\">{{item_5}}</p><a class=\"button\" href=\"{{item_8}}\">{{item_10}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Riziko je součást hry",
+        "default": "Riziko je součást hry"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Využití volných prostředků podle vašich cílů a časového horizontu",
+        "default": "Využití volných prostředků podle vašich cílů a časového horizontu."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Nejdřív cíl, potom investice.",
+        "default": "Nejdřív cíl, potom investice."
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Leží vám peníze na účtu? Pojďme se podívat, jestli pro ně existuj",
+        "default": "Leží vám peníze na účtu? Pojďme se podívat, jestli pro ně existuje vhodnější využití."
+      },
+      {
+        "name": "item_5",
+        "type": "wysiwyg",
+        "label": "Hodnota investice může růst i klesat. Výnos není zaručený.",
+        "default": "Hodnota investice může růst i klesat. Výnos není zaručený."
+      },
+      {
+        "name": "item_6",
+        "type": "image",
+        "label": "Fotografie 6",
+        "default": "/assets/analyza.webp"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_8",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=investice#formular",
+        "default": "/kontakt?tema=investice#formular"
+      },
+      {
+        "name": "item_9",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_10",
+        "type": "text",
+        "label": "Probrat možnosti",
+        "default": "Probrat možnosti"
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Na co chcete prostředky využít a kdy je budete potřebovat.",
+        "default": "Na co chcete prostředky využít a kdy je budete potřebovat."
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Jakou máte finanční rezervu.",
+        "default": "Jakou máte finanční rezervu."
+      },
+      {
+        "name": "item_13",
+        "type": "wysiwyg",
+        "label": "Jaké riziko můžete a chcete přijmout.",
+        "default": "Jaké riziko můžete a chcete přijmout."
+      }
+    ],
+    "title": "Riziko je součást hry | Tereza Machoňová"
+  },
+  "kontakt": {
+    "template": "<section class=\"page-intro\"><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"contact-layout\"><div class=\"contact-info\"><img class=\"contact-avatar\" src=\"{{item_20}}\" alt=\"Tereza Machoňová\"><h2>{{item_3}}</h2><p>{{item_4}}</p><a href=\"{{item_21}}\"><small>{{item_24}}</small>+420 732 869 834</a><a href=\"{{item_22}}\"><small>{{item_25}}</small>tereza.machonova@4fin.cz</a><div><small>{{item_26}}</small>Místo osobního setkání upřesním při domluvě.</div><a class=\"text-link\" href=\"{{item_23}}\" target=\"_blank\" rel=\"noopener\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.8 1.8-1.8H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.7 0-4.5 1.6-4.5 4.6v2.7H7V13h3v9z\"/></svg><span>{{item_27}}</span></a></div><div class=\"form-card\" id=\"formular\"><h2>{{item_5}}</h2><form id=\"contact-form\"><label for=\"name\">{{item_6}}</label><input id=\"name\" name=\"name\" autocomplete=\"name\" required placeholder=\"Jak se jmenujete?\"><div class=\"form-row\"><div><label for=\"email\">{{item_7}}</label><input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"email\" required placeholder=\"vas@email.cz\"></div><div><label for=\"phone\">{{item_8}}</label><input type=\"tel\" id=\"phone\" name=\"phone\" autocomplete=\"tel\" placeholder=\"+420\"></div></div><label for=\"topic\">{{item_9}}</label><select id=\"topic\" name=\"topic\"><option>{{item_10}}</option><option>{{item_11}}</option><option>{{item_12}}</option><option>{{item_13}}</option><option>{{item_14}}</option><option>{{item_15}}</option><option>{{item_16}}</option></select><label for=\"message\">{{item_17}}</label><textarea id=\"message\" name=\"message\" rows=\"4\" required placeholder=\"Napište mi pár slov o tom, co potřebujete vyřešit.\"></textarea><p class=\"form-note\">{{item_18}}</p><button class=\"button\" type=\"submit\">{{item_19}}</button><p id=\"form-status\" role=\"status\"></p></form></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Co právě řešíte?",
+        "default": "Co právě řešíte?"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Napište mi nebo zavolejte. Domluvíme další krok.",
+        "default": "Napište mi nebo zavolejte. Domluvíme další krok."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Ing. Tereza Machoňová",
+        "default": "Ing. Tereza Machoňová"
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Finanční konzultantka · 4fin",
+        "default": "Finanční konzultantka · 4fin"
+      },
+      {
+        "name": "item_5",
+        "type": "heading",
+        "label": "Kontaktujte mě",
+        "default": "Kontaktujte mě"
+      },
+      {
+        "name": "item_6",
+        "type": "wysiwyg",
+        "label": "Jméno a příjmení  *",
+        "default": "Jméno a příjmení <span>*</span>"
+      },
+      {
+        "name": "item_7",
+        "type": "wysiwyg",
+        "label": "E-mail  *",
+        "default": "E-mail <span>*</span>"
+      },
+      {
+        "name": "item_8",
+        "type": "wysiwyg",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_9",
+        "type": "wysiwyg",
+        "label": "S čím vám mohu pomoci?",
+        "default": "S čím vám mohu pomoci?"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Rád/a bych se poradil/a",
+        "default": "Rád/a bych se poradil/a"
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Hypotéky a financování bydlení",
+        "default": "Hypotéky a financování bydlení"
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Reality a bydlení",
+        "default": "Reality a bydlení"
+      },
+      {
+        "name": "item_13",
+        "type": "wysiwyg",
+        "label": "Životní a majetkové pojištění",
+        "default": "Životní a majetkové pojištění"
+      },
+      {
+        "name": "item_14",
+        "type": "wysiwyg",
+        "label": "Investice",
+        "default": "Investice"
+      },
+      {
+        "name": "item_15",
+        "type": "wysiwyg",
+        "label": "Příprava na penzi",
+        "default": "Příprava na penzi"
+      },
+      {
+        "name": "item_16",
+        "type": "wysiwyg",
+        "label": "Finanční plán",
+        "default": "Finanční plán"
+      },
+      {
+        "name": "item_17",
+        "type": "wysiwyg",
+        "label": "Vaše zpráva  *",
+        "default": "Vaše zpráva <span>*</span>"
+      },
+      {
+        "name": "item_18",
+        "type": "wysiwyg",
+        "label": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete j",
+        "default": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete ji tam; web údaje neukládá. <a class=\"text-link\" href=\"/ochrana-osobnich-udaju\">Ochrana osobních údajů</a>."
+      },
+      {
+        "name": "item_19",
+        "type": "wysiwyg",
+        "label": "Připravit e-mail",
+        "default": "Připravit e-mail"
+      },
+      {
+        "name": "item_20",
+        "type": "image",
+        "label": "Fotografie 20",
+        "default": "/assets/tereza.jpg"
+      },
+      {
+        "name": "item_21",
+        "type": "url",
+        "label": "Odkaz: tel:+420732869834",
+        "default": "tel:+420732869834"
+      },
+      {
+        "name": "item_22",
+        "type": "url",
+        "label": "Odkaz: mailto:tereza.machonova@4fin.cz",
+        "default": "mailto:tereza.machonova@4fin.cz"
+      },
+      {
+        "name": "item_23",
+        "type": "url",
+        "label": "Odkaz: https://www.facebook.com/profile.php?id=61592866243076",
+        "default": "https://www.facebook.com/profile.php?id=61592866243076"
+      },
+      {
+        "name": "item_24",
+        "type": "text",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_25",
+        "type": "text",
+        "label": "E-mail",
+        "default": "E-mail"
+      },
+      {
+        "name": "item_26",
+        "type": "text",
+        "label": "Kancelář",
+        "default": "Kancelář"
+      },
+      {
+        "name": "item_27",
+        "type": "text",
+        "label": "Facebook · Finance od Terky",
+        "default": "Facebook · Finance od Terky"
+      }
+    ],
+    "title": "Kontakt | Tereza Machoňová"
+  },
+  "o-mne": {
+    "template": "<section class=\"page-intro\"><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail personal-story\"><div class=\"about-photo\"><img src=\"{{item_33}}\" alt=\"Ing. Tereza Machoňová\"><div class=\"small-ring\" aria-hidden=\"true\"></div></div><div class=\"about-story\"><h2>{{item_3}}</h2><p>{{item_4}}</p><p>{{item_5}}</p><p>{{item_6}}</p><p>{{item_7}}</p></div></section><section class=\"section cooperation\"><div class=\"section-title\"><div><h2>{{item_8}}</h2></div></div><div class=\"steps\"><article><span>{{item_38}}</span><h3>{{item_9}}</h3><p>{{item_10}}</p></article><article><span>{{item_39}}</span><h3>{{item_11}}</h3><p>{{item_12}}</p></article><article><span>{{item_40}}</span><h3>{{item_13}}</h3><p>{{item_14}}</p></article></div></section><section class=\"section enquiry-title\"><div class=\"section-title\"><h2>{{item_15}}</h2></div></section><section class=\"contact-layout\"><div class=\"contact-info\"><img class=\"contact-avatar\" src=\"{{item_34}}\" alt=\"Tereza Machoňová\"><h2>{{item_16}}</h2><p>{{item_17}}</p><a href=\"{{item_35}}\"><small>{{item_41}}</small>+420 732 869 834</a><a href=\"{{item_36}}\"><small>{{item_42}}</small>tereza.machonova@4fin.cz</a><div><small>{{item_43}}</small>Místo osobního setkání upřesním při domluvě.</div><a class=\"text-link\" href=\"{{item_37}}\" target=\"_blank\" rel=\"noopener\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.8 1.8-1.8H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.7 0-4.5 1.6-4.5 4.6v2.7H7V13h3v9z\"/></svg><span>{{item_44}}</span></a></div><div class=\"form-card\" id=\"formular\"><h2>{{item_18}}</h2><form id=\"contact-form\"><label for=\"name\">{{item_19}}</label><input id=\"name\" name=\"name\" autocomplete=\"name\" required placeholder=\"Jak se jmenujete?\"><div class=\"form-row\"><div><label for=\"email\">{{item_20}}</label><input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"email\" required placeholder=\"vas@email.cz\"></div><div><label for=\"phone\">{{item_21}}</label><input type=\"tel\" id=\"phone\" name=\"phone\" autocomplete=\"tel\" placeholder=\"+420\"></div></div><label for=\"topic\">{{item_22}}</label><select id=\"topic\" name=\"topic\"><option>{{item_23}}</option><option>{{item_24}}</option><option>{{item_25}}</option><option>{{item_26}}</option><option>{{item_27}}</option><option>{{item_28}}</option><option>{{item_29}}</option></select><label for=\"message\">{{item_30}}</label><textarea id=\"message\" name=\"message\" rows=\"4\" required placeholder=\"Napište mi pár slov o tom, co potřebujete vyřešit.\"></textarea><p class=\"form-note\">{{item_31}}</p><button class=\"button\" type=\"submit\">{{item_32}}</button><p id=\"form-status\" role=\"status\"></p></form></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "O mně",
+        "default": "O mně"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Finanční a majetkové poradenství pod značkou 4fin.",
+        "default": "Finanční a majetkové poradenství pod značkou 4fin."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Já, Terka",
+        "default": "Já, Terka"
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Narodila jsem se ve Zlíně, vystudovala chemii a po několika letec",
+        "default": "Narodila jsem se ve Zlíně, vystudovala chemii a po několika letech práce v tomto kouzelném oboru jsem se rozhodla, že zkusím namíchat trochu jiný koktejl. K financím mě přivedla vlastní zkušenost s hypotékou. Zjistila jsem totiž, že mezi tím, co člověk potřebuje, co mu kdo nabízí a co skutečně dává smysl, může být docela slušný rozdíl. A tak jsem se z klientky postupně vydala na druhou stranu barikády, do světa komplexního finančního poradenství. Protože život je příliš krátký na to, abych se držela původního plánu."
+      },
+      {
+        "name": "item_5",
+        "type": "wysiwyg",
+        "label": "Považuji se za introverta, krutého cynika a realistu. Občas mluví",
+        "default": "Považuji se za introverta, krutého cynika a realistu. Občas mluvím víc, než je nutné, jindy mlčím přesně ve chvíli, kdy by se hodilo něco říct. Miluji satiru, černý humor a nadhled, zejména ve chvílích, kdy se svět tváří, že všechno hoří. K tomu dobré jídlo, červené víno a fotografování, díky kterému se snažím zachytit svět takový, jaký je. Nebo aspoň takový, jaký bych ho na chvíli chtěla mít."
+      },
+      {
+        "name": "item_6",
+        "type": "wysiwyg",
+        "label": "Nesleduji televizi, debaty o politice a světovém míru přenechávám",
+        "default": "Nesleduji televizi, debaty o politice a světovém míru přenechávám odvážnějším povahám. Doma chovám jednoho koně a občas sednu na kolo."
+      },
+      {
+        "name": "item_7",
+        "type": "wysiwyg",
+        "label": "Ve financích dávám přednost faktům před sliby, rozumu před líbivý",
+        "default": "Ve financích dávám přednost faktům před sliby, rozumu před líbivými prezentacemi a dlouhodobému smyslu před rychlými zázraky. Dokážu několik hodin v kuse vysvětlovat, co znamená hypotéka, pojistka na tamto a ono, ale upřímně - toto nepotřebujete (a skoro si myslím, že ani nechcete). Potřebujete dotáhnout do zdárného konce váš konkrétní příběh. Bez zbytečné omáčky, vzletných frází a pohádek o bezpracném bohatství. A od toho jsem tady."
+      },
+      {
+        "name": "item_8",
+        "type": "heading",
+        "label": "Od první schůzky k dlouhodobé péči.",
+        "default": "Od první schůzky<br>k dlouhodobé péči."
+      },
+      {
+        "name": "item_9",
+        "type": "heading",
+        "label": "Seznámení",
+        "default": "Seznámení"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Probereme vaše potřeby a představím vám svůj způsob práce.",
+        "default": "Probereme vaše potřeby a představím vám svůj způsob práce."
+      },
+      {
+        "name": "item_11",
+        "type": "heading",
+        "label": "Analýza a návrh",
+        "default": "Analýza a návrh"
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Podíváme se na vaše finance. Připravím doporučení a vysvětlím nav",
+        "default": "Podíváme se na vaše finance. Připravím doporučení a vysvětlím navrhované řešení."
+      },
+      {
+        "name": "item_13",
+        "type": "heading",
+        "label": "Administrativa a servis",
+        "default": "Administrativa a servis"
+      },
+      {
+        "name": "item_14",
+        "type": "wysiwyg",
+        "label": "Zajistím související administrativu. Pravidelně kontrolujeme, jes",
+        "default": "Zajistím související administrativu. Pravidelně kontrolujeme, jestli vše odpovídá vašim plánům."
+      },
+      {
+        "name": "item_15",
+        "type": "heading",
+        "label": "Co právě řešíte?",
+        "default": "Co právě řešíte?"
+      },
+      {
+        "name": "item_16",
+        "type": "heading",
+        "label": "Ing. Tereza Machoňová",
+        "default": "Ing. Tereza Machoňová"
+      },
+      {
+        "name": "item_17",
+        "type": "wysiwyg",
+        "label": "Finanční konzultantka · 4fin",
+        "default": "Finanční konzultantka · 4fin"
+      },
+      {
+        "name": "item_18",
+        "type": "heading",
+        "label": "Kontaktujte mě",
+        "default": "Kontaktujte mě"
+      },
+      {
+        "name": "item_19",
+        "type": "wysiwyg",
+        "label": "Jméno a příjmení  *",
+        "default": "Jméno a příjmení <span>*</span>"
+      },
+      {
+        "name": "item_20",
+        "type": "wysiwyg",
+        "label": "E-mail  *",
+        "default": "E-mail <span>*</span>"
+      },
+      {
+        "name": "item_21",
+        "type": "wysiwyg",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_22",
+        "type": "wysiwyg",
+        "label": "S čím vám mohu pomoci?",
+        "default": "S čím vám mohu pomoci?"
+      },
+      {
+        "name": "item_23",
+        "type": "wysiwyg",
+        "label": "Rád/a bych se poradil/a",
+        "default": "Rád/a bych se poradil/a"
+      },
+      {
+        "name": "item_24",
+        "type": "wysiwyg",
+        "label": "Hypotéky a financování bydlení",
+        "default": "Hypotéky a financování bydlení"
+      },
+      {
+        "name": "item_25",
+        "type": "wysiwyg",
+        "label": "Reality a bydlení",
+        "default": "Reality a bydlení"
+      },
+      {
+        "name": "item_26",
+        "type": "wysiwyg",
+        "label": "Životní a majetkové pojištění",
+        "default": "Životní a majetkové pojištění"
+      },
+      {
+        "name": "item_27",
+        "type": "wysiwyg",
+        "label": "Investice",
+        "default": "Investice"
+      },
+      {
+        "name": "item_28",
+        "type": "wysiwyg",
+        "label": "Příprava na penzi",
+        "default": "Příprava na penzi"
+      },
+      {
+        "name": "item_29",
+        "type": "wysiwyg",
+        "label": "Finanční plán",
+        "default": "Finanční plán"
+      },
+      {
+        "name": "item_30",
+        "type": "wysiwyg",
+        "label": "Vaše zpráva  *",
+        "default": "Vaše zpráva <span>*</span>"
+      },
+      {
+        "name": "item_31",
+        "type": "wysiwyg",
+        "label": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete j",
+        "default": "Formulář připraví zprávu ve vašem e-mailovém programu. Odešlete ji tam; web údaje neukládá. <a class=\"text-link\" href=\"/ochrana-osobnich-udaju\">Ochrana osobních údajů</a>."
+      },
+      {
+        "name": "item_32",
+        "type": "wysiwyg",
+        "label": "Připravit e-mail",
+        "default": "Připravit e-mail"
+      },
+      {
+        "name": "item_33",
+        "type": "image",
+        "label": "Fotografie 33",
+        "default": "/assets/tereza-o-mne.jpg"
+      },
+      {
+        "name": "item_34",
+        "type": "image",
+        "label": "Fotografie 34",
+        "default": "/assets/tereza.jpg"
+      },
+      {
+        "name": "item_35",
+        "type": "url",
+        "label": "Odkaz: tel:+420732869834",
+        "default": "tel:+420732869834"
+      },
+      {
+        "name": "item_36",
+        "type": "url",
+        "label": "Odkaz: mailto:tereza.machonova@4fin.cz",
+        "default": "mailto:tereza.machonova@4fin.cz"
+      },
+      {
+        "name": "item_37",
+        "type": "url",
+        "label": "Odkaz: https://www.facebook.com/profile.php?id=61592866243076",
+        "default": "https://www.facebook.com/profile.php?id=61592866243076"
+      },
+      {
+        "name": "item_38",
+        "type": "text",
+        "label": "01",
+        "default": "01"
+      },
+      {
+        "name": "item_39",
+        "type": "text",
+        "label": "02",
+        "default": "02"
+      },
+      {
+        "name": "item_40",
+        "type": "text",
+        "label": "03",
+        "default": "03"
+      },
+      {
+        "name": "item_41",
+        "type": "text",
+        "label": "Telefon",
+        "default": "Telefon"
+      },
+      {
+        "name": "item_42",
+        "type": "text",
+        "label": "E-mail",
+        "default": "E-mail"
+      },
+      {
+        "name": "item_43",
+        "type": "text",
+        "label": "Kancelář",
+        "default": "Kancelář"
+      },
+      {
+        "name": "item_44",
+        "type": "text",
+        "label": "Facebook · Finance od Terky",
+        "default": "Facebook · Finance od Terky"
+      }
+    ],
+    "title": "O mně | Tereza Machoňová"
+  },
+  "ochrana-osobnich-udaju": {
+    "template": "<section class=\"page-intro\"><h1>{{item_1}}</h1><p>{{item_2}}</p></section><article class=\"privacy-copy\"><h2>{{item_3}}</h2><p>{{item_4}}</p><h2>{{item_5}}</h2><p>{{item_6}}</p><p>{{item_7}}</p><h2>{{item_8}}</h2><p>{{item_9}}</p><h2>{{item_10}}</h2><p>{{item_11}}</p><h2>{{item_12}}</h2><p>{{item_13}}</p><p>{{item_14}}</p><p>{{item_15}}</p><p class=\"form-note\">{{item_16}}</p></article>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Ochrana osobních údajů",
+        "default": "Ochrana osobních údajů"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Jak nakládám s údaji při kontaktu prostřednictvím tohoto webu.",
+        "default": "Jak nakládám s údaji při kontaktu prostřednictvím tohoto webu."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Kdo vyřizuje vaše dotazy",
+        "default": "Kdo vyřizuje vaše dotazy"
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Ing. Tereza Machoňová, IČ 29604796. Pro otázky týkající se osobní",
+        "default": "Ing. Tereza Machoňová, IČ 29604796. Pro otázky týkající se osobních údajů mě kontaktujte na <a href=\"mailto:tereza.machonova@4fin.cz\">tereza.machonova@4fin.cz</a> nebo na čísle +420 732 869 834."
+      },
+      {
+        "name": "item_5",
+        "type": "heading",
+        "label": "Kontaktní formulář a e-mail",
+        "default": "Kontaktní formulář a e-mail"
+      },
+      {
+        "name": "item_6",
+        "type": "wysiwyg",
+        "label": "Formulář připravuje zprávu ve vašem e-mailovém programu. Údaje z ",
+        "default": "Formulář připravuje zprávu ve vašem e-mailovém programu. Údaje z formuláře se neodesílají na server tohoto webu a web je neukládá. Zprávu mi odešlete až sami ze svého e-mailu. Po jejím odeslání obdržím vaše jméno, e-mail, případně telefon a obsah zprávy."
+      },
+      {
+        "name": "item_7",
+        "type": "wysiwyg",
+        "label": "Tyto údaje používám k vyřízení vašeho dotazu a domluvě konzultace",
+        "default": "Tyto údaje používám k vyřízení vašeho dotazu a domluvě konzultace. Pokud žádáte o službu, jde o jednání před uzavřením smlouvy na vaši žádost podle čl. 6 odst. 1 písm. b) GDPR. U běžných dotazů je právním základem oprávněný zájem na vyřízení komunikace podle čl. 6 odst. 1 písm. f) GDPR. Poskytnutí údajů je dobrovolné; bez kontaktu vám nemohu odpovědět."
+      },
+      {
+        "name": "item_8",
+        "type": "heading",
+        "label": "Uchování a přístup k údajům",
+        "default": "Uchování a přístup k údajům"
+      },
+      {
+        "name": "item_9",
+        "type": "wysiwyg",
+        "label": "Komunikaci uchovávám po dobu potřebnou k vyřízení dotazu a navazu",
+        "default": "Komunikaci uchovávám po dobu potřebnou k vyřízení dotazu a navazujícímu jednání. Další uchování se řídí účelem spolupráce a případnými zákonnými povinnostmi. Při e-mailové komunikaci se na zpracování podílejí poskytovatelé e-mailových služeb. Pokud navážeme spolupráci, informace o zpracování pro konkrétní finanční službu dostanete při jejím sjednání."
+      },
+      {
+        "name": "item_10",
+        "type": "heading",
+        "label": "Provoz webu a externí odkazy",
+        "default": "Provoz webu a externí odkazy"
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Web nepoužívá vlastní analytické ani reklamní skripty a neukládá ",
+        "default": "Web nepoužívá vlastní analytické ani reklamní skripty a neukládá údaje do cookies nebo místního úložiště prohlížeče. Poskytovatel hostingu může při provozu zpracovávat technické údaje, například IP adresu a záznamy o požadavcích. Odkaz na Facebook nebo 4fin vás přesměruje na jiný web, jehož pravidla zpracování se uplatní po jeho otevření."
+      },
+      {
+        "name": "item_12",
+        "type": "heading",
+        "label": "Vaše práva",
+        "default": "Vaše práva"
+      },
+      {
+        "name": "item_13",
+        "type": "wysiwyg",
+        "label": "Za podmínek GDPR můžete požádat o přístup k údajům, jejich opravu",
+        "default": "Za podmínek GDPR můžete požádat o přístup k údajům, jejich opravu či výmaz, omezení zpracování nebo přenositelnost. Proti zpracování založenému na oprávněném zájmu můžete vznést námitku. Žádost pošlete na uvedený e-mail. Máte také právo podat stížnost u Úřadu pro ochranu osobních údajů."
+      },
+      {
+        "name": "item_14",
+        "type": "wysiwyg",
+        "label": "Práva subjektů údajů – ÚOOÚ ↗",
+        "default": "<a class=\"text-link\" href=\"https://uoou.gov.cz/poradna/poradna-gdpr/prava-subjektu-udaju\" target=\"_blank\" rel=\"noopener\">Práva subjektů údajů – ÚOOÚ ↗</a>"
+      },
+      {
+        "name": "item_15",
+        "type": "wysiwyg",
+        "label": "Informace o ochraně údajů u 4fin ↗",
+        "default": "<a class=\"text-link\" href=\"https://www.4fin.cz/ochrana-osobnich-udaju\" target=\"_blank\" rel=\"noopener\">Informace o ochraně údajů u 4fin ↗</a>"
+      },
+      {
+        "name": "item_16",
+        "type": "wysiwyg",
+        "label": "Aktualizováno 5. října 2026.",
+        "default": "Aktualizováno 5. října 2026."
+      }
+    ],
+    "title": "Ochrana osobních údajů | Tereza Machoňová"
+  },
+  "penze": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_6}}\">{{item_8}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_5}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\"></div><div><h2>{{item_3}}</h2><p>{{item_4}}</p><ul class=\"service-points\"><li>{{item_10}}</li><li>{{item_11}}</li><li>{{item_12}}</li></ul><a class=\"button\" href=\"{{item_7}}\">{{item_9}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Na stará kolena",
+        "default": "Na stará kolena"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Dlouhodobý finanční plán pro život po skončení práce.",
+        "default": "Dlouhodobý finanční plán pro život po skončení práce."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Kolik času zbývá a jaký máte plán?",
+        "default": "Kolik času zbývá a jaký máte plán?"
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Propojíme vaše dlouhodobé cíle s tím, kolik si můžete pravidelně ",
+        "default": "Propojíme vaše dlouhodobé cíle s tím, kolik si můžete pravidelně odkládat."
+      },
+      {
+        "name": "item_5",
+        "type": "image",
+        "label": "Fotografie 5",
+        "default": "/assets/penze.webp"
+      },
+      {
+        "name": "item_6",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=penze#formular",
+        "default": "/kontakt?tema=penze#formular"
+      },
+      {
+        "name": "item_8",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_9",
+        "type": "text",
+        "label": "Probrat možnosti",
+        "default": "Probrat možnosti"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Kdy chcete přestat pracovat a jak si penzi představujete.",
+        "default": "Kdy chcete přestat pracovat a jak si penzi představujete."
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Jaké úspory a produkty už máte.",
+        "default": "Jaké úspory a produkty už máte."
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Kolik můžete pravidelně odkládat.",
+        "default": "Kolik můžete pravidelně odkládat."
+      }
+    ],
+    "title": "Na stará kolena | Tereza Machoňová"
+  },
+  "pojisteni": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_6}}\">{{item_8}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_5}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\"></div><div><h2>{{item_3}}</h2><p>{{item_4}}</p><ul class=\"service-points\"><li>{{item_10}}</li><li>{{item_11}}</li><li>{{item_12}}</li></ul><a class=\"button\" href=\"{{item_7}}\">{{item_9}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Nesmrtelnost zatím není v nabídce",
+        "default": "Nesmrtelnost zatím není v nabídce"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Ochrana příjmu, blízkých, nemovitosti a domácnosti.",
+        "default": "Ochrana příjmu, blízkých, nemovitosti a domácnosti."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Pojistka má odpovídat vašemu životu.",
+        "default": "Pojistka má odpovídat vašemu životu."
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Postarám se o to, aby váš příjem byl chráněn v různých životních ",
+        "default": "Postarám se o to, aby váš příjem byl chráněn v různých životních situacích a vaše plány zůstaly v bezpečí."
+      },
+      {
+        "name": "item_5",
+        "type": "image",
+        "label": "Fotografie 5",
+        "default": "/assets/pojisteni.webp"
+      },
+      {
+        "name": "item_6",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=pojisteni#formular",
+        "default": "/kontakt?tema=pojisteni#formular"
+      },
+      {
+        "name": "item_8",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_9",
+        "type": "text",
+        "label": "Probrat možnosti",
+        "default": "Probrat možnosti"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Jaké příjmy a závazky potřebujete chránit.",
+        "default": "Jaké příjmy a závazky potřebujete chránit."
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Jaké pojištění už máte a co se od jeho sjednání změnilo.",
+        "default": "Jaké pojištění už máte a co se od jeho sjednání změnilo."
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Jaký majetek potřebujete pojistit.",
+        "default": "Jaký majetek potřebujete pojistit."
+      }
+    ],
+    "title": "Nesmrtelnost zatím není v nabídce | Tereza Machoňová"
+  },
+  "reality": {
+    "template": "<section class=\"page-intro\"><a class=\"text-link\" href=\"{{item_6}}\">{{item_8}}</a><h1>{{item_1}}</h1><p>{{item_2}}</p></section><section class=\"split about-detail\"><div class=\"image-composition\"><img src=\"{{item_5}}\" alt=\"Ilustrační fotografie konzultace z webu 4fin\"></div><div><h2>{{item_3}}</h2><p>{{item_4}}</p><ul class=\"service-points\"><li>{{item_10}}</li><li>{{item_11}}</li><li>{{item_12}}</li></ul><a class=\"button\" href=\"{{item_7}}\">{{item_9}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Reality bez iluzí",
+        "default": "Reality bez iluzí"
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení.",
+        "default": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení."
+      },
+      {
+        "name": "item_3",
+        "type": "heading",
+        "label": "Nemovitost a finance spolu souvisejí.",
+        "default": "Nemovitost a finance spolu souvisejí."
+      },
+      {
+        "name": "item_4",
+        "type": "wysiwyg",
+        "label": "Při řešení bydlení se podíváme na nemovitost i na možnosti jejího",
+        "default": "Při řešení bydlení se podíváme na nemovitost i na možnosti jejího financování."
+      },
+      {
+        "name": "item_5",
+        "type": "image",
+        "label": "Fotografie 5",
+        "default": "/assets/reality.webp"
+      },
+      {
+        "name": "item_6",
+        "type": "url",
+        "label": "Odkaz: /sluzby",
+        "default": "/sluzby"
+      },
+      {
+        "name": "item_7",
+        "type": "url",
+        "label": "Odkaz: /kontakt?tema=reality#formular",
+        "default": "/kontakt?tema=reality#formular"
+      },
+      {
+        "name": "item_8",
+        "type": "text",
+        "label": "← Všechny služby",
+        "default": "← Všechny služby"
+      },
+      {
+        "name": "item_9",
+        "type": "text",
+        "label": "Probrat možnosti",
+        "default": "Probrat možnosti"
+      },
+      {
+        "name": "item_10",
+        "type": "wysiwyg",
+        "label": "Zda kupujete, prodáváte nebo obě situace řešíte současně.",
+        "default": "Zda kupujete, prodáváte nebo obě situace řešíte současně."
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Jak na sebe navazují termíny a financování.",
+        "default": "Jak na sebe navazují termíny a financování."
+      },
+      {
+        "name": "item_12",
+        "type": "wysiwyg",
+        "label": "Co od nového bydlení očekáváte.",
+        "default": "Co od nového bydlení očekáváte."
+      }
+    ],
+    "title": "Reality bez iluzí | Tereza Machoňová"
+  },
+  "reference": {
+    "template": "<section class=\"page-intro\"><h1>{{item_1}}</h1></section><section class=\"empty-reference\"><div class=\"reference-geometry\" aria-hidden=\"true\"><span></span><span></span><span></span></div><div><h2>{{item_2}}</h2><p>{{item_3}}</p><a class=\"button\" href=\"{{item_4}}\">{{item_5}}</a></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Zkušenosti klientů.",
+        "default": "Zkušenosti klientů."
+      },
+      {
+        "name": "item_2",
+        "type": "heading",
+        "label": "Reference zatím připravuji.",
+        "default": "Reference zatím připravuji."
+      },
+      {
+        "name": "item_3",
+        "type": "wysiwyg",
+        "label": "Na této stránce budou zkušenosti klientů s naší spoluprací.",
+        "default": "Na této stránce budou zkušenosti klientů s naší spoluprací."
+      },
+      {
+        "name": "item_4",
+        "type": "url",
+        "label": "Odkaz: /kontakt",
+        "default": "/kontakt"
+      },
+      {
+        "name": "item_5",
+        "type": "text",
+        "label": "Kontaktovat Terezu",
+        "default": "Kontaktovat Terezu"
+      }
+    ],
+    "title": "Reference | Tereza Machoňová"
+  },
+  "sluzby": {
+    "template": "<section class=\"page-intro\"><h1>{{item_1}}</h1><p>{{item_2}}</p></section><div class=\"chooser\"><p>{{item_3}}</p><div><a href=\"{{item_25}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7\"/></svg><span>{{item_37}}</span></a><a href=\"{{item_26}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path d=\"M8 7h2m4 0h2M8 11h2m4 0h2M10 21v-6h4v6\"/></svg><span>{{item_38}}</span></a><a href=\"{{item_27}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6zM8 12l3 3 5-6\"/></svg><span>{{item_39}}</span></a><a href=\"{{item_28}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><path d=\"M4 21V11m6 10V7m6 14V3m5 18H2\"/></svg><span>{{item_40}}</span></a><a href=\"{{item_29}}\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6v6l4 3\"/></svg><span>{{item_41}}</span></a></div></div><section class=\"service-preview-grid\"><a class=\"service-preview\" href=\"{{item_30}}\"><img src=\"{{item_18}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_4}}</h2><p>{{item_5}}</p><span class=\"text-link\">{{item_42}}</span></div></a><a class=\"service-preview\" href=\"{{item_31}}\"><img src=\"{{item_19}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_6}}</h2><p>{{item_7}}</p><span class=\"text-link\">{{item_43}}</span></div></a><a class=\"service-preview\" href=\"{{item_32}}\"><img src=\"{{item_20}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_8}}</h2><p>{{item_9}}</p><span class=\"text-link\">{{item_44}}</span></div></a><a class=\"service-preview\" href=\"{{item_33}}\"><img src=\"{{item_21}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_10}}</h2><p>{{item_11}}</p><span class=\"text-link\">{{item_45}}</span></div></a><a class=\"service-preview\" href=\"{{item_34}}\"><img src=\"{{item_22}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_12}}</h2><p>{{item_13}}</p><span class=\"text-link\">{{item_46}}</span></div></a><a class=\"service-preview\" href=\"{{item_35}}\"><img src=\"{{item_23}}\" alt=\"\" loading=\"lazy\"><div><h2>{{item_14}}</h2><p>{{item_15}}</p><span class=\"text-link\">{{item_47}}</span></div></a></section><section class=\"split section\"><div><h2>{{item_16}}</h2><p>{{item_17}}</p><a class=\"button\" href=\"{{item_36}}\">{{item_48}}</a></div><div class=\"image-composition\"><img src=\"{{item_24}}\" alt=\"Ilustrační fotografie finanční analýzy z webu 4fin\" loading=\"lazy\"></div></section>",
+    "fields": [
+      {
+        "name": "item_1",
+        "type": "heading",
+        "label": "Bydlení, pojištění, investice a penze.",
+        "default": "Bydlení, pojištění,<br>investice a penze."
+      },
+      {
+        "name": "item_2",
+        "type": "wysiwyg",
+        "label": "Vyberte, co právě řešíte. Můžeme se věnovat jednomu tématu i vaši",
+        "default": "Vyberte, co právě řešíte. Můžeme se věnovat jednomu tématu i vašim financím jako celku."
+      },
+      {
+        "name": "item_3",
+        "type": "wysiwyg",
+        "label": "S čím vám mohu pomoci?",
+        "default": "S čím vám mohu pomoci?"
+      },
+      {
+        "name": "item_4",
+        "type": "heading",
+        "label": "Bydlím, tedy jsem",
+        "default": "Bydlím, tedy jsem"
+      },
+      {
+        "name": "item_5",
+        "type": "wysiwyg",
+        "label": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávaj",
+        "default": "Financování koupě, stavby nebo rekonstrukce. Refinancování stávající hypotéky."
+      },
+      {
+        "name": "item_6",
+        "type": "heading",
+        "label": "Reality bez iluzí",
+        "default": "Reality bez iluzí"
+      },
+      {
+        "name": "item_7",
+        "type": "wysiwyg",
+        "label": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení.",
+        "default": "Koupě a prodej nemovitosti v souvislosti s financováním bydlení."
+      },
+      {
+        "name": "item_8",
+        "type": "heading",
+        "label": "Nesmrtelnost zatím není v nabídce",
+        "default": "Nesmrtelnost zatím není v nabídce"
+      },
+      {
+        "name": "item_9",
+        "type": "wysiwyg",
+        "label": "Ochrana příjmu, blízkých, nemovitosti a domácnosti.",
+        "default": "Ochrana příjmu, blízkých, nemovitosti a domácnosti."
+      },
+      {
+        "name": "item_10",
+        "type": "heading",
+        "label": "Riziko je součást hry",
+        "default": "Riziko je součást hry"
+      },
+      {
+        "name": "item_11",
+        "type": "wysiwyg",
+        "label": "Využití volných prostředků podle vašich cílů a časového horizontu",
+        "default": "Využití volných prostředků podle vašich cílů a časového horizontu."
+      },
+      {
+        "name": "item_12",
+        "type": "heading",
+        "label": "Na stará kolena",
+        "default": "Na stará kolena"
+      },
+      {
+        "name": "item_13",
+        "type": "wysiwyg",
+        "label": "Dlouhodobý finanční plán pro život po skončení práce.",
+        "default": "Dlouhodobý finanční plán pro život po skončení práce."
+      },
+      {
+        "name": "item_14",
+        "type": "heading",
+        "label": "Finanční obrázek bez slepých míst",
+        "default": "Finanční obrázek bez slepých míst"
+      },
+      {
+        "name": "item_15",
+        "type": "wysiwyg",
+        "label": "Přehled příjmů, výdajů, rezerv a závazků. Finanční plán, ve které",
+        "default": "Přehled příjmů, výdajů, rezerv a závazků. Finanční plán, ve kterém všechno zapadá do souvislostí."
+      },
+      {
+        "name": "item_16",
+        "type": "heading",
+        "label": "Všechno v souvislostech.",
+        "default": "Všechno v souvislostech."
+      },
+      {
+        "name": "item_17",
+        "type": "wysiwyg",
+        "label": "Sestavíme přehledný plán, který propojí vaše cíle, příjmy i výdaj",
+        "default": "Sestavíme přehledný plán, který propojí vaše cíle, příjmy i výdaje. Součástí může být také správa, konsolidace a refinancování úvěrů."
+      },
+      {
+        "name": "item_18",
+        "type": "image",
+        "label": "Fotografie 18",
+        "default": "/assets/schuzka.webp"
+      },
+      {
+        "name": "item_19",
+        "type": "image",
+        "label": "Fotografie 19",
+        "default": "/assets/reality.webp"
+      },
+      {
+        "name": "item_20",
+        "type": "image",
+        "label": "Fotografie 20",
+        "default": "/assets/pojisteni.webp"
+      },
+      {
+        "name": "item_21",
+        "type": "image",
+        "label": "Fotografie 21",
+        "default": "/assets/analyza.webp"
+      },
+      {
+        "name": "item_22",
+        "type": "image",
+        "label": "Fotografie 22",
+        "default": "/assets/penze.webp"
+      },
+      {
+        "name": "item_23",
+        "type": "image",
+        "label": "Fotografie 23",
+        "default": "/assets/analyza.webp"
+      },
+      {
+        "name": "item_24",
+        "type": "image",
+        "label": "Fotografie 24",
+        "default": "/assets/analyza.webp"
+      },
+      {
+        "name": "item_25",
+        "type": "url",
+        "label": "Odkaz: /hypoteky",
+        "default": "/hypoteky"
+      },
+      {
+        "name": "item_26",
+        "type": "url",
+        "label": "Odkaz: /reality",
+        "default": "/reality"
+      },
+      {
+        "name": "item_27",
+        "type": "url",
+        "label": "Odkaz: /pojisteni",
+        "default": "/pojisteni"
+      },
+      {
+        "name": "item_28",
+        "type": "url",
+        "label": "Odkaz: /investice",
+        "default": "/investice"
+      },
+      {
+        "name": "item_29",
+        "type": "url",
+        "label": "Odkaz: /penze",
+        "default": "/penze"
+      },
+      {
+        "name": "item_30",
+        "type": "url",
+        "label": "Odkaz: /hypoteky",
+        "default": "/hypoteky"
+      },
+      {
+        "name": "item_31",
+        "type": "url",
+        "label": "Odkaz: /reality",
+        "default": "/reality"
+      },
+      {
+        "name": "item_32",
+        "type": "url",
+        "label": "Odkaz: /pojisteni",
+        "default": "/pojisteni"
+      },
+      {
+        "name": "item_33",
+        "type": "url",
+        "label": "Odkaz: /investice",
+        "default": "/investice"
+      },
+      {
+        "name": "item_34",
+        "type": "url",
+        "label": "Odkaz: /penze",
+        "default": "/penze"
+      },
+      {
+        "name": "item_35",
+        "type": "url",
+        "label": "Odkaz: /financni-plan",
+        "default": "/financni-plan"
+      },
+      {
+        "name": "item_36",
+        "type": "url",
+        "label": "Odkaz: /kontakt",
+        "default": "/kontakt"
+      },
+      {
+        "name": "item_37",
+        "type": "text",
+        "label": "Chci vlastní bydlení",
+        "default": "Chci vlastní bydlení"
+      },
+      {
+        "name": "item_38",
+        "type": "text",
+        "label": "Kupuji nebo prodávám",
+        "default": "Kupuji nebo prodávám"
+      },
+      {
+        "name": "item_39",
+        "type": "text",
+        "label": "Chci ochránit rodinu a majetek",
+        "default": "Chci ochránit rodinu a majetek"
+      },
+      {
+        "name": "item_40",
+        "type": "text",
+        "label": "Chci investovat",
+        "default": "Chci investovat"
+      },
+      {
+        "name": "item_41",
+        "type": "text",
+        "label": "Myslím na penzi",
+        "default": "Myslím na penzi"
+      },
+      {
+        "name": "item_42",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_43",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_44",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_45",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_46",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_47",
+        "type": "text",
+        "label": "Podrobnosti →",
+        "default": "Podrobnosti →"
+      },
+      {
+        "name": "item_48",
+        "type": "text",
+        "label": "Probrat finanční plán",
+        "default": "Probrat finanční plán"
+      }
+    ],
+    "title": "Služby | Tereza Machoňová"
+  }
+}
